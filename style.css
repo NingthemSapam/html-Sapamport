@@ -1,0 +1,46 @@
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+
+
+.background {
+    background: linear-gradient(300deg, #289045, #ff6666, #286291);
+    background-size: 180% 180%;
+    animation: gradient-animation 13s ease infinite;
+    
+}
+
+.animation{
+    
+    animation-name: change;
+    animation-duration: 4s;  
+    animation-iteration-count: infinite;
+}
+
+
+
+.mydp{
+    border-radius: 50%;
+}
+
+.Feature{
+    background-color: #beddc7;
+}
+
+
+    background-color: red;
+    animation-name: change;
+    animation-duration: 4s;   
+
+    .footer{
+        background-color: #289045;
+    }
